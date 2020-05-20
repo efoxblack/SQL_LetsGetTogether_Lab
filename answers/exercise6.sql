@@ -1,0 +1,4 @@
+SELECT COUNT(*), Country
+FROM Students
+GROUP BY Country DESC
+WHERE COUNT(*) > 10;
